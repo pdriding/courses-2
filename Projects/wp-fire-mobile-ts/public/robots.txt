@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://wpfire.co.uk/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow sensitive areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+Disallow: /.env*
+Disallow: /node_modules/
+
+# Allow important pages
+Allow: /
+Allow: /services
+Allow: /images/
+Allow: /fonts/
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
